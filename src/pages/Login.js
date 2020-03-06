@@ -25,7 +25,6 @@ export default function Login({ history }) {
 
   return (
     <div className="login-container">
-      <p>Process {JSON.stringify(process.env)}</p>
       <form onSubmit={handleSubmit}>
         <img src={logo} alt="Tindev" />
         <input
